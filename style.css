@@ -1,0 +1,31 @@
+body {}
+
+
+.logo {
+    width: 100px;
+}
+
+.hamburger-account :nth-child(2) {
+    font-size: 30px;
+    color: #696969;
+
+}
+
+.share-save i {
+    font-size: 14px;
+}
+
+.images-container img {
+    width: 300px;
+}
+
+.image1 img {
+    width: 100%;
+}
+
+.prova1 .image {
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/1.webp);
+
+}
