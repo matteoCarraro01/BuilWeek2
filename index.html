@@ -41,12 +41,12 @@
     <main>
         <div class="container p-4">
             <div class="row">
-                <div class="under-nav d-flex justify-content-between">
+                <div class="under-nav d-flex justify-content-between ">
                     <div class="title-home">
                         <h2><strong>Blarmor home</strong></h2>
-                        <p>4,6 Ratings - Inverness</p>
+                        <p><strong>4</strong>,6 Ratings - Inverness</p>
                     </div>
-                    <div class="share-save d-flex p-5 gap-2">
+                    <div class="share-save d-flex p-4 ">
                         <div class="share d-flex px-3 align-items-baseline">
                             <i class="bi bi-upload px-1"></i>
                             <p>Share</p>
@@ -58,38 +58,152 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container">
             <div class="row">
-                <div class="images-container d-flex flex-wrap">
-                    <div class="image1 col-md-6 float-end">
-                        <img src="assets/1.webp" alt="image1">
+                <div class="images-container d-flex flex-wrap gap-2 pb-5">
+                    <div class="image1 col-6">
+                        <div class="image img-1  w-100 h-100"></div>
+
                     </div>
-                    <div class="prova1 col-6 row d-flex flex-wrap">
-                        <div class="image2 col-6">
-                            <div class="image w-100 h-100"></div>
-                            <!-- <img src="assets/2.webp" alt="image2"> -->
+                    <div class="prova1 col-6 row d-flex flex-wrap gx-2 gy-2">
+                        <div class=" col-6">
+                            <div class="image img-2 w-100 h-100"></div>
+
                         </div>
-                        <div class="image3 col-6">
-                            <div class="image w-100 h-100"></div>
-                            <!-- <img src="assets/3.webp" alt="image3"> -->
+                        <div class=" col-6">
+                            <div class="image img-3 w-100 h-100"></div>
+
                         </div>
-                        <div class="image4 col-6">
-                            <div class="image w-100 h-100"></div>
-                            <!-- <img src="assets/4.webp" alt="image4"> -->
+                        <div class=" col-6">
+                            <div class="image img-4 w-100 h-100"></div>
+
                         </div>
-                        <div class="image5 col-6">
-                            <div class="image w-100 h-100"></div>
-                            <!-- <img src="assets/5.webp" alt="image5"> -->
+                        <div class=" col-6">
+                            <div class="image img-5 w-100 h-100"></div>
+
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="title-post pb-5">
+                    <h2 class="fw-bold">House - Host: Erica</h2>
+                    <p>3 room - Perfect place to visit the Loch Ness and go looking for Nessie. <br><span>Show host
+                            details</span>
+                    </p>
+
+                </div>
+                <div class="icon-container d-flex pb-5">
+                    <div class="icon"><i class="bi bi-house-door px-1"></i></div>
+                    <div class="icon-description ps-3">
+                        <h5 class="pb-2"><strong>House</strong></h5>
+                        <p class="text-secondary">You will have the whole premise for you.</p>
+                    </div>
+                </div>
+                <div class="icon-container d-flex pb-5">
+                    <div class="icon"><i class="bi bi-stars px-1"></i></div>
+                    <div class="icon-description ps-3">
+                        <h5 class="pb-2"><strong>Advance Cleaning Methods</strong></h5>
+                        <p class="text-secondary">The host is committing to our 5-step cleaning process.</p>
+                    </div>
+                </div>
+                <div class="icon-container d-flex pb-5">
+                    <div class="icon"><i class="bi bi-geo-alt px-1"></i></div>
+                    <div class="icon-description ps-3">
+                        <h5 class="pb-2"><strong>Inverness</strong></h5>
+                        <p class="text-secondary">5 Kilmore Rd</p>
+                    </div>
+                </div>
+                <div class="icon-container d-flex pb-5">
+                    <div class="icon"><i class="bi bi-calendar2-week px-1"></i></div>
+                    <div class="icon-description ps-3">
+                        <h5 class="pb-2"><strong>Cancellation Terms And Fees</strong></h5>
+                        <p class="text-secondary">Add your travel dates to know details about cancellation fees and
+                            terms.</p>
+                    </div>
+                </div>
+                <div class="icon-container d-flex pb-5">
+                    <div class="icon"><i class="bi bi-book px-1"></i></div>
+                    <div class="icon-description ps-3">
+                        <h5 class="pb-2"><strong>Rules Of The House</strong></h5>
+                        <p class="text-secondary">It's forbidden to host parties, bring animals and smoke.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
         </div>
+
+        <form>
+            <div class="container">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" placeholder="Enter name" class="form-control" id="name">
+
+                </div>
+
+                <div class="mb-3">
+                    <label for="Rating" class="form-label">Rating</label>
+                    <select id="rating-button" class="form-select">
+                        <option>Disabled select</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Review</label>
+                    <textarea class="form-control" placeholder="Type in your review" id="exampleFormControlTextarea1"
+                        rows="3"></textarea>
+                </div>
+            </div>
+        </form>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
 
     </main>
 
+    <footer>
+        <div class="container footer">
+            <div class="icon-noemi ">
+                <img class="image-noemi" src="assets/propic.png" alt="icon-profile">
+                <span><strong>Noemi</strong></span>
+                <p>Jan 2021</p>
+                <span>Contrary to other reviews, I was cold and couldn't figure out how to turn on the
+                    heating...Otherwise amazing house.</span>
 
+
+
+            </div>
+
+
+
+            <div class="icon-enrico ">
+                <img class="image-enrico" src="assets/propic.png" alt="icon-profile">
+                <span><strong>Enrico</strong></span>
+                <p>Jan 2021</p>
+                <span>Amazing place. I've been here with my daughter to take pictures and we were not
+                    disappointed!</span>
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+    </footer>
 
 
 

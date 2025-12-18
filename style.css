@@ -1,6 +1,3 @@
-body {}
-
-
 .logo {
     width: 100px;
 }
@@ -13,19 +10,76 @@ body {}
 
 .share-save i {
     font-size: 14px;
+    cursor: pointer;
 }
 
-.images-container img {
-    width: 300px;
+.share-save i:hover {
+    transform: scale(1.2);
 }
 
-.image1 img {
-    width: 100%;
-}
-
-.prova1 .image {
+.image1 .img-1 {
     background-position: center;
     background-size: cover;
     background-image: url(assets/1.webp);
+    border-radius: 20px 0 0 20px;
+}
 
+.prova1 .img-2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/2.webp);
+
+
+}
+
+.prova1 .img-3 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/3.webp);
+    border-radius: 0 20px 0 0;
+
+}
+
+.prova1 .img-4 {
+    background-position: bottom;
+    background-size: cover;
+    background-image: url(assets/4.webp);
+
+
+}
+
+.prova1 .img-5 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(assets/5.webp);
+    border-radius: 0 0 20px 0;
+
+
+}
+
+.images-container {
+    overflow: hidden;
+    min-height: 600px;
+    cursor: pointer;
+}
+
+.images-container .image:hover {
+    transform: scale(1.01);
+}
+
+.icon i {
+    font-size: 40px;
+}
+
+.title-post span {
+    font-weight: bold;
+    color: #7C838B;
+}
+
+.image-noemi {
+    width: 50px;
+}
+
+.image-enrico {
+    width: 50px;
 }
